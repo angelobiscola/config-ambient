@@ -1,6 +1,6 @@
 ## Dependencias - Ubuntu 12 +
 
-## Cofiguraãoo de ambiente
+## Cofiguração de ambiente
 
 #### Install PHP
 
