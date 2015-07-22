@@ -36,4 +36,10 @@
       sudo apt-get install nodejs
       node -v
 
-### more..
+### Install Ionic
+
+      
+      vim .bashrc
+      export ANDROID_HOME=/opt/android-sdk-linux
+      export PATH=$ANDROID_HOME/tools:$PATH
+      export PATH=$ANDROID_HOME/platform-tools:$PATH
