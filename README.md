@@ -1,5 +1,4 @@
-## Dependencias - Ubuntu 12 +
-
-## Cofiguração de ambiente
+#### Dependencias - Ubuntu 12 +
+     https://github.com/angelo-ti/install-dependencies/blob/master/ubuntu.md
 
 
