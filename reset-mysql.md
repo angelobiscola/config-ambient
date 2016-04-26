@@ -2,8 +2,8 @@
 
 ##### Linux:
 
-     /etc/init.d/mysqld stop
-     /etc/init.d/mysqld_safe --skip-grant-tables
+     sudo /etc/init.d/mysqld stop
+     sudo /etc/init.d/mysqld_safe --skip-grant-tables
      sudo /usr/local/mysql/bin/mysql -u root
 
     v5.4-
@@ -16,7 +16,7 @@
      FLUSH PRIVILEGES;
      \q
 
-     /etc/init.d/mysqld start
+     sudo /etc/init.d/mysqld start
 
 #### Mac
 
