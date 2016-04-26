@@ -7,7 +7,7 @@ APP por Vhost apache
             ErrorLog ${APACHE_LOG_DIR}/error.log
             CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-            <Directory /var/www/html/gda.app/public>
+            <Directory /var/www/html/app/public>
                 <IfModule mod_rewrite.c>
                     Options -MultiViews
                     RewriteEngine On
