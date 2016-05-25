@@ -39,3 +39,7 @@
       export ANDROID_HOME=/opt/android-sdk-linux
       export PATH=$ANDROID_HOME/tools:$PATH
       export PATH=$ANDROID_HOME/platform-tools:$PATH
+      
+### Install PHP Sqlite
+
+      sudo apt-get install sqlite php5-sqlite
