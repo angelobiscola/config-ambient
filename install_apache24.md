@@ -1,5 +1,7 @@
 Update
 
+    sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade
+
 Apache 2.4
 
     sudo apt-get install apache2
@@ -19,25 +21,25 @@ Vhost
    
    Acesse pasta
     
-    /etc/apache2/sites-available
+        /etc/apache2/sites-available
      
    Crie arquivo da site/aplicação
    
-    cp 000-default.conf app.conf
+        cp 000-default.conf app.conf
     
    Edite
    
     nano app.conf 
     
-    DocumentRoot 
-      Ex: /var/www/html/tuaaplicacao/public.
-    ServerName 
-      Ex: teudominio.com.br.
-    ServerAlias 
-      Ext: www.teudominio.com.br.
+        DocumentRoot 
+          Ex: /var/www/html/tuaaplicacao/public.
+        ServerName 
+          Ex: teudominio.com.br.
+        ServerAlias 
+          Ext: www.teudominio.com.br.
       
    Aplique novo host
    
-      sudo a2ensite app.conf
-      service apache2 reload
+          sudo a2ensite app.conf
+          service apache2 reload
    
